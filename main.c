@@ -1,4 +1,5 @@
 #include "monty.h"
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 bus_t bus = {NULL, NULL, NULL, 0};
 /**
 * main - monty code interpreter
